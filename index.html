@@ -332,19 +332,16 @@
 <body>
 
 <!-- HERO -->
-<section class="hero" style="position:relative;overflow:hidden;background:var(--dark);">
+<section class="hero" style="position:relative;overflow:hidden;background:var(--dark);min-height:600px;display:flex;align-items:center;justify-content:center;">
   <div style="position:absolute;inset:0;z-index:0;">
-    <img src="header-bg.jpg" alt="" style="width:100%;height:100%;object-fit:cover;opacity:0.35;">
+    <img src="header-bg.jpg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center;opacity:0.4;">
   </div>
-  <div style="position:relative;z-index:1;">
+  <div style="position:relative;z-index:1;width:100%;padding:100px 24px 80px;">
     <span class="hero-eyebrow">Antonia Franckenstein — The Funnel Girl</span>
     <h1>You have an audience.<br>You have an offer.<br>So why isn't it <em>converting?</em></h1>
     <p class="hero-sub">In 60 minutes, we figure out exactly what's missing — and you leave with a complete map of what to build first.</p>
     <a href="https://payhip.com/order?link=TK7MU" class="hero-cta-btn">Book The Funnel Mapping Session</a>
     <span class="hero-price-note">$497 — limited spots available</span>
-    <div style="margin-top:60px; max-width:600px; margin-left:auto; margin-right:auto;">
-      <img src="antonia1.jpg" alt="Antonia Franckenstein" style="width:100%; border-radius:4px; display:block; opacity:0.92;">
-    </div>
   </div>
 </section>
 
@@ -482,7 +479,7 @@
     <h2 style="font-family:'Playfair Display',serif;font-size:clamp(24px,4vw,36px);color:var(--dark);text-align:center;margin-bottom:16px;line-height:1.3;">Six stages. Every gap named. Your exact next steps.</h2>
     <p style="font-size:16px;color:#888;text-align:center;margin-bottom:48px;max-width:520px;margin-left:auto;margin-right:auto;">This is an example of the format you receive. Your map is built from scratch for your specific business — nothing is templated, nothing is generic.</p>
 
-    <!-- MAIN MOCKUP: Six stages — cropped to show top portion only -->
+    <!-- MOCKUP 1: Six stages — cropped + blurred so structure shows but text isn't readable -->
     <div class="mockup-frame" style="max-width:760px;margin-bottom:32px;">
       <div class="mockup-bar">
         <span class="mockup-dot" style="background:#FF5F57;"></span>
@@ -490,41 +487,39 @@
         <span class="mockup-dot" style="background:#28CA41;"></span>
         <span class="mockup-url">thefunnelgirl — funnel map example</span>
       </div>
-      <!-- Cropped: only top 55% of image shows, fades to white at bottom -->
-      <div style="position:relative;overflow:hidden;height:0;padding-bottom:55%;">
-        <img src="gleam-six-stages.jpg" alt="Example showing the six-stage funnel map format — Attention, Entry, Trust, Conversion, Ascension, Retention" style="position:absolute;top:0;left:0;width:100%;display:block;">
-        <div style="position:absolute;bottom:0;left:0;right:0;height:120px;background:linear-gradient(to bottom,transparent,var(--white));"></div>
+      <div style="position:relative;overflow:hidden;height:0;padding-bottom:52%;">
+        <img src="gleam-six-stages.jpg" alt="Six-stage funnel map showing the format and structure" style="position:absolute;top:0;left:0;width:100%;display:block;filter:blur(3px);transform:scale(1.02);">
+        <div style="position:absolute;bottom:0;left:0;right:0;height:140px;background:linear-gradient(to bottom,transparent,var(--cream-dark));"></div>
       </div>
     </div>
 
-    <!-- CAPTION -->
-    <p style="font-size:14px;color:#999;text-align:center;margin-bottom:40px;font-style:italic;">Each stage expands into a full strategic brief — what exists, what's missing, what to do first, and backend notes for your team.</p>
+    <p style="font-size:14px;color:#999;text-align:center;margin-bottom:40px;font-style:italic;">Six stages mapped across your full business. Each one expands into a complete strategic brief.</p>
 
-    <!-- DETAIL MOCKUP: Expanded stage — cropped to show top portion only -->
-    <div class="mockup-frame" style="max-width:760px;margin-bottom:32px;">
+    <!-- MOCKUP 2: Stage detail — cropped + blurred -->
+    <div class="mockup-frame" style="max-width:760px;margin-bottom:40px;">
       <div class="mockup-bar">
         <span class="mockup-dot" style="background:#FF5F57;"></span>
         <span class="mockup-dot" style="background:#FFBD2E;"></span>
         <span class="mockup-dot" style="background:#28CA41;"></span>
         <span class="mockup-url">thefunnelgirl — stage detail example</span>
       </div>
-      <!-- Cropped: only top 50% of image shows, fades out -->
-      <div style="position:relative;overflow:hidden;height:0;padding-bottom:45%;">
-        <img src="gleam-stage-detail.jpg" alt="Example of a single stage expanded — showing the depth of analysis inside each stage of the funnel map" style="position:absolute;top:0;left:0;width:100%;display:block;">
-        <div style="position:absolute;bottom:0;left:0;right:0;height:100px;background:linear-gradient(to bottom,transparent,var(--white));"></div>
+      <div style="position:relative;overflow:hidden;height:0;padding-bottom:42%;">
+        <img src="gleam-stage-detail.jpg" alt="A single stage expanded showing the depth of strategic analysis" style="position:absolute;top:0;left:0;width:100%;display:block;filter:blur(3px);transform:scale(1.02);">
+        <div style="position:absolute;bottom:0;left:0;right:0;height:100px;background:linear-gradient(to bottom,transparent,var(--cream-dark));"></div>
       </div>
     </div>
 
-    <!-- THIRD MOCKUP: Gap + working visual -->
-    <p style="font-size:14px;color:#999;text-align:center;margin-bottom:32px;font-style:italic;">The gaps and what's working are mapped clearly — so you can see the full picture in one view.</p>
+    <p style="font-size:14px;color:#999;text-align:center;margin-bottom:40px;font-style:italic;">Inside each stage: what exists, what's missing, what to fix first, and backend notes for your VA or OBM.</p>
+
+    <!-- MOCKUP 3: Funnel visual overview — shown clearly, this is the concept diagram -->
     <div class="mockup-frame" style="max-width:760px;margin-bottom:48px;">
       <div class="mockup-bar">
         <span class="mockup-dot" style="background:#FF5F57;"></span>
         <span class="mockup-dot" style="background:#FFBD2E;"></span>
         <span class="mockup-dot" style="background:#28CA41;"></span>
-        <span class="mockup-url">thefunnelgirl — gaps + priorities</span>
+        <span class="mockup-url">thefunnelgirl — gaps + priorities overview</span>
       </div>
-      <img src="funnel-visual.png" alt="Funnel map overview showing all six stages, gaps identified in coral, working stages in purple, priority order, and what you receive" style="width:100%;display:block;">
+      <img src="funnel-visual.png" alt="Overview of a funnel map showing six stages, gaps identified in coral, working stages in purple, and priority order" style="width:100%;display:block;">
     </div>
 
     <!-- WHAT THIS MEANS -->
